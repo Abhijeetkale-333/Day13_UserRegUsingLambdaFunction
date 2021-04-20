@@ -1,0 +1,2 @@
+com/bridgelapz/UserRegisterationTest.java
+ com.bridgelapz.UserRegisterationTest

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelapz.UserRegisterationTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-20T18:35:03" hostname="ABHIJEET" time="0.295">
+  <properties/>
+  <testcase name="Password_validation_True()" classname="com.bridgelapz.UserRegisterationTest" time="0.046"/>
+  <testcase name="Password_validation_False()" classname="com.bridgelapz.UserRegisterationTest" time="0.001"/>
+  <testcase name="lastName_CheckValidation_false()" classname="com.bridgelapz.UserRegisterationTest" time="0.003"/>
+  <testcase name="MobileNumber_validation_False()" classname="com.bridgelapz.UserRegisterationTest" time="0.009"/>
+  <testcase name="Email_checkValidation_True()" classname="com.bridgelapz.UserRegisterationTest" time="0.002"/>
+  <testcase name="Email_checkValidation_False()" classname="com.bridgelapz.UserRegisterationTest" time="0.002"/>
+  <testcase name="firstName_checkValidation_ture()" classname="com.bridgelapz.UserRegisterationTest" time="0.003"/>
+  <testcase name="MobileNumber_validation_True()" classname="com.bridgelapz.UserRegisterationTest" time="0.027"/>
+  <testcase name="All_Email_validation_false()" classname="com.bridgelapz.UserRegisterationTest" time="0.041"/>
+  <testcase name="lastName_checkValidation_ture()" classname="com.bridgelapz.UserRegisterationTest" time="0.025"/>
+  <testcase name="firstName_checkValidate_false()" classname="com.bridgelapz.UserRegisterationTest" time="0.01"/>
+  <testcase name="All_Email_valid_True()" classname="com.bridgelapz.UserRegisterationTest" time="0.059"/>
+  <system-out><![CDATA[false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+true
+true
+true
+true
+true
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
