@@ -18,14 +18,14 @@ public class UserRegisterationTest {
 
     @Test
     public void firstName_checkValidation_ture() {
-        boolean result = user.checkFirstName.validate("Shuchita");
+        boolean result = user.checkFirstName.validate("Abhijeet");
         Assertions.assertTrue(result);
 
     }
 
     @Test
     public void firstName_checkValidate_false() {
-        boolean result = user.checkLastName.validate("Shuchi123");
+        boolean result = user.checkLastName.validate("Abhi123");
         Assertions.assertFalse(result);
     }
 
@@ -33,14 +33,14 @@ public class UserRegisterationTest {
 
     @Test
     public void lastName_checkValidation_ture() {
-        boolean result = user.checkLastName.validate("Suchi");
+        boolean result = user.checkLastName.validate("Abhi");
         Assertions.assertTrue(result);
 
 
     }
     @Test
     public void lastName_CheckValidation_false(){
-        boolean result = user.checkLastName.validate("Shu");
+        boolean result = user.checkLastName.validate("Abi");
         Assertions.assertTrue(result);
 
     }
@@ -48,7 +48,7 @@ public class UserRegisterationTest {
     @Test
     public void Email_checkValidation_True(){
 
-        boolean result = user.checkEmail.validate("singhshuchita5@gmail.com");
+        boolean result = user.checkEmail.validate("abhijeetkale786@gmail.com");
         Assertions.assertTrue(result);
 
 
@@ -56,7 +56,7 @@ public class UserRegisterationTest {
     @Test
     public void Email_checkValidation_False(){
 
-        boolean result = user.checkEmail.validate("shuchitasingh@123gmail.com");
+        boolean result = user.checkEmail.validate("abhijeetkale786@gmail.com");
         Assertions.assertTrue(result);
 
 
@@ -65,7 +65,7 @@ public class UserRegisterationTest {
     @Test
     public void MobileNumber_validation_True() {
 
-        boolean result = user.checkMobileNum.validate("91 9096795337");
+        boolean result = user.checkMobileNum.validate("91 9423628329");
         Assertions.assertTrue(result);
 
 
@@ -73,7 +73,7 @@ public class UserRegisterationTest {
     @Test
     public void MobileNumber_validation_False() {
 
-        boolean result = user.checkMobileNum.validate("123456789666");
+        boolean result = user.checkMobileNum.validate("987654321111");
         Assertions.assertFalse(result);
 
     }
@@ -81,14 +81,14 @@ public class UserRegisterationTest {
     @Test
     public void Password_validation_True() {
 
-        boolean result = user.checkPassword.validate("Suchi@123");
+        boolean result = user.checkPassword.validate("Abhi@123");
         Assertions.assertTrue(result);
 
     }
     @Test
     public void Password_validation_False() {
 
-        boolean result = user.checkPassword.validate("Suchi123#78");
+        boolean result = user.checkPassword.validate("Abhi@@@3332");
         Assertions.assertTrue(result);
 
     }
